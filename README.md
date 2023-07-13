@@ -4,13 +4,6 @@ This project is a part of Metacrafters ETH+AVAX course assessment.
 
 In this project, we had to create a custom token using a smart contract, deploy it on the local hardhat network, and use Remix IDE to interact with it.
 
-The custom token will have following functionalities:
-- The owner of the token will be able to mint tokens to other accounts
-- Any user can transfer tokens to other accounts.
-- Any user can burn tokens.
-
-
-
 ### Follow the steps to configure the project
 
 #### 1. Create a hardhat Javascript project
@@ -40,7 +33,7 @@ Note the URL and port at which the server is running
 npx hardhat run --network localhost scripts/deploy.js
 ```
 
-Note the address of the smart contract
+copy the address of the smart contract
 
 
 #### 4. Remix IDE
@@ -48,7 +41,7 @@ Note the address of the smart contract
 In the Remix IDE
 - Go to the deploy tab.
 - Select the environment as `Dev - Hardhat Provider`.
-- Enter the URL of the Hardhat network in the dialog box. You will be able to access the accounts present in your local Hardhat network.
-- Enter the address of the smart contract in the `At Address` tab.
+- Enter the URL of the Hardhat network in the dialog box.and connect with local host.
+- Enter the address in the `At Address` tab.
 
-Now you'll be able to interact with the custom token deployed on local Hardhat network. 
+npw we will able to tranfer some tokens. 
